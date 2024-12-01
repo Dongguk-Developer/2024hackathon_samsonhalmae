@@ -1,0 +1,38 @@
+{
+    "윤해민": {
+        "PhoneNumber": "01040800179",
+        "password": "1234",
+        "birth": "2005-10-17",
+        "address": "경주시 석장동"
+    },
+    "테스트": {
+        "PhoneNumber": "01022223333",
+        "password": "1234!!",
+        "birth": "1928-10-04",
+        "address": "경기도 화성시"
+    },
+    "test": {
+        "PhoneNumber": "01011112222",
+        "password": "ajsif345",
+        "birth": "1987-04-16",
+        "address": "경기도 화성시"
+    },
+    "테스트2": {
+        "PhoneNumber": "01033334444",
+        "password": "1234!!",
+        "birth": "1998-01-05",
+        "address": "경기도 화성시"
+    },
+    "이채민": {
+        "PhoneNumber": "01092793645",
+        "password": "kimghdus",
+        "birth": "2004-01-08",
+        "address": "부산"
+    },
+    "테스트4": {
+        "PhoneNumber": "38857834728",
+        "password": "qqqqqqqq!!",
+        "birth": "1928-01-31",
+        "address": "경기도 화성시"
+    }
+}

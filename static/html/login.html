@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="icon" href="../src/img/favicon.png">
+</head>
+<body>
+    
+</body>
+</html>
+<div class="loginform-container">
+    <img src="../src/img/logo2.png" alt="logo" id="logo" width="300" height="200" onclick="window.location.href='./index.html'">
+    <form id="loginForm" onsubmit="return loginUser()">
+        <label for="phone">전화번호</label>
+        <input type="tel" class="inputbox" id="phone" name="phone" required placeholder="- 제외하고 입력"><br><br>
+        
+        <label for="password">비밀번호</label>
+        <input type="password" class="inputbox" id="password" name="password" required ><br><br>
+        
+        <input type="submit" id="log-b" value="로그인">
+        <button onclick="window.location.href='./regester.html'" id="log-b">회원가입</button>
+    </form>
+</div>
+
+<script src="../js/login.js"></script>

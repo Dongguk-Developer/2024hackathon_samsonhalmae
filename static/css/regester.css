@@ -1,0 +1,83 @@
+/* 로고 이미지 삽입 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    font-size: 22px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #004D8C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.regester-container {
+  background: #FED12E;
+  padding: 20px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  text-align: left;
+  position: fixed;
+  margin-bottom: 20px;
+  font-size: 24px;
+  justify-content: space-between;
+  color: #333;
+}
+
+.form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffff;
+    justify-content: left;
+}
+
+.form-header h1 {
+    margin: 0;
+}
+
+#title {
+    font-size: 48px;
+}
+
+.logo {
+    width: 100px;
+    margin-left: 5px;
+}
+
+#reg-b {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+#reg-b {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#reg-b:hover {
+  background-color: #0056b3;
+}
+
+input::placeholder {
+    text-align: center;
+}

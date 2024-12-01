@@ -1,0 +1,167 @@
+/* 로고 이미지 삽입 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    font-size: 24px;
+    margin: auto;
+    box-sizing: inherit;;
+}
+a,a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: #6a95ff;
+}
+a.logout {
+    /* 로그인 버튼의 CSS를 동일하게 적용 */
+    color: black;
+    text-decoration: none;
+}
+a.logout:hover {
+    color: #6a95ff;
+}
+
+#searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#searchForm #submit {
+    margin-left: 0;
+}
+#searchForm #search {
+    margin-right: 0;
+}
+
+#godunea {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#header-logo {
+    display: flex; /* Flexbox 활성화 */
+    justify-content: center; /* 가로 방향 중앙 정렬 */
+    align-items: center; /* 세로 방향 중앙 정렬 */
+    height: 40vh; /* 화면 전체 높이 */
+    margin: 0; /* 기본 외부 여백 제거 */
+}
+
+#header-logo img {
+    max-width: 100%; /* 로고 크기 조정 */
+    height: auto; /* 비율 유지 */
+}
+
+
+#header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: #222;
+}
+
+#header #notice_icon {
+    margin-right: 10px;
+}
+
+#header p {
+    width: 1000px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+/* tr span {
+    position: absolute;
+} */
+
+#notice_icon {
+    width: 20px;
+    height: 50px;
+}
+
+body {
+    background-color: #004D8C;
+}
+td {
+    border: 1px solid black;
+}
+
+#header {
+    float: center;
+    background-color: #ffff;
+}
+
+#search {
+    border-radius: 10px;
+}
+
+/* #kategorie> li {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 260px;
+  }
+  #kategorie> li > a {
+    display:block; position:relative; padding-bottom:19px;
+    margin: 50px;
+  }
+
+  #kategorie> li > a > span {
+    position:absolute; bottom:0; left:50%; color:#666; line-height:1.462em; white-space:nowrap; transform:translate(-50%, 0)
+  } */
+
+#kategorie button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+    margin: auto;
+    font-size: 14px;
+    cursor: pointer;
+}
+h2 {
+    width: 175px;
+    color: #ffff;
+    border-radius: 5px;
+    border: 2px solid #FED12E;
+    background-color: #FED12E;
+    padding: 10px;
+    
+}
+
+li {
+    margin: 5px;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+#menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu {
+    display: flex;
+    padding: 10px;
+    background-color: #ffff;
+}
+#menu button {
+    background-color: transparent;
+    color: black; /*이미지삽입 후 수정*/
+    border: none;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    justify-content: center;
+}
+

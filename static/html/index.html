@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가온나</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" href="../src/img/favicon.png">
+    <link rel="stylesheet" href="../../css/menu.css">
+</head>
+<body>
+    <div id="header-logo">
+        <img src="../src/img/logo2.png" alt="로고" width="200px" height="100px">
+    </div>
+    <div id="header">
+        <img src="../src/svg/notice.svg" id="notice_icon"  alt="공지사항" width="30px" height="30px" onclick="window.location.href = './notice.html'">
+        <p id="welcomeMessage"></p>
+    </div>
+    <form action="./search.html" method="get" id="searchForm">
+        <input type="text" id="search" name="query">
+        <input type="submit" value="검색" id="submit" style="border: 1px black solid;">
+    </form>
+    <table id="kategorie" style="border: 2px solid #ffff;">
+        <tr>
+            <td><a href="./kategorie/fruit.html">과일</a></div></td>
+            <td><a href="./kategorie/grain.html">쌀/잡곡</a></td>
+            <td><a href="./kategorie/vegetable.html">채소</a></div></td>
+            <td><a href="./kategorie/fish.html">수산물/건어물</a></div></td>
+            <td><a href="./kategorie/drink.html">생수/음료</a></div></td>
+        </tr>
+        <tr>
+            <td><a href="./kategorie/meat.html">축산물</a></td>
+            <td><a href="./kategorie/diary.html">유제품</a></td>
+            <td><a href="./kategorie/jang.html">장류</a></td>
+            <td><a href="./kategorie/dessert.html">디저트류</a></td>
+            <td><a href="./kategorie/etc.html">잡화</a></td>
+        </tr>
+    </table>
+    <!-- <ul id="kateorie">
+        <li><a href="./kategorie/fruit.html"><img src="../src/img/img2.png" width="75 height75"><span>과일</span></a></li>
+        <li><a href="./kategorie/grain.html"><img src="../src/img/img3.png" width="75 height75"><span>쌀/잡곡</span></a></li>
+        <li><a href="./kategorie/vegetable.html"><img src="../src/img/testimg.png" width=75 height75><span>채소</span></a></li>
+        <li><a href="./kategorie/fish.html"><img src="../src/img/img4.png" width="75 height75"><span>수산물/건어물</span></a></li>
+        <li><a href="./kategorie/drink.html"><img src="../src/img/img6.png" width="75 height75"><span>생수/음료</span></a></li>
+      </ul>
+      <ul id="kateorie">
+        <li><a href="./kategorie/fruit.html"><img src="../src/img/testimg.png" width="75 height75"><span>축산물</span></a></li>
+        <li><a href="./kategorie/grain.html"><img src="../src/img/testimg.png" width="75 height75"><span>유제품</span></a></li>
+        <li><a href="./kategorie/vegetable.html"><img src="../src/img/img5.png" width="75 height75"><span>장류</span></a></li>
+        <li><a href="./kategorie/fish.html"><img src="../src/img/img7.png" width="75 height75"><span>디저트류</span></a></li>
+        <li><a href="./kategorie/drink.html"><img src="../src/img/testimg.png" width="75 height75"><span>잡화</span></a></li>
+      </ul> -->
+    <h2>이달의 인기 상품</h2>
+    <div><img src="../src/img/img4.png" width="200px" id="godunea"></div>
+    <p id="topproduct"></p> <!-- TODO 다른것들부너 구축해야함 -->
+    <div id="menu-container">
+        <ul id="menu">
+            <li><a href="./index.html"><img src="../src/img/home.png"><span>홈</span></a></li>
+            <li><a href="./login.html" class="logout"><img src="../src/img/testimg.png"><span>로그인</span></a></li>
+            <li><a href="./basket.html"><img src="../src/img/basket.png"><span>장바구니</span></a></li>
+            <li><a href="./buy_history.html"><img src="../src/svg/buy_history.svg"><span>구매내역</span></a></li>
+            <li><a href="./keep.html"><img src="../src/img/keep.png"><span>찜하기</span></a></li>
+            <li><a href="./mypage.html"><img src="../src/img/mypage.png"><span>마이페이지</span></a></li>
+        </ul>
+    </div>
+    <script src="../js/index.js"></script>
+</body>
+</html>

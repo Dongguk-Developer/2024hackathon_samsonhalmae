@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <link rel="stylesheet" href="../css/regester.css">
+    <link rel="icon" href="../src/img/favicon.png">
+</head>
+<body>
+<div class="regester-container">
+    <div class="form-header">
+        <h1 id="title">회원가입</h1>
+        <img src="../src/img/logo.jpg" alt="로고" class="logo">
+    </div>
+    <form action="/static/html/login.html" method="post" onsubmit="return registerUser()">
+        <label for="name">이름:</label>
+        <input type="text" id="name" name="name" required><br><br>
+    
+        <label for="phone">전화번호:</label>
+        <input type="tel" id="phone" name="phone" required placeholder="- 제외하고 입력"><br><br>
+    
+        <label for="password">비밀번호:</label>
+        <input type="password" id="password" name="password" required><br><br>
+    
+        <label for="birth">생년월일:</label>
+        <input
+
+    type="date" id="birth" name="birth" required><br><br>
+    
+        <label for="address">주소:</label>
+        <input type="text" id="address" name="address" required><br><br>
+    
+        <input type="submit" id="reg-b" value="회원가입">
+    </form>
+    </div>
+</body>
+<script src="../js/regester.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>검색 결과</title>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="icon" href="../src/img/favicon.png">
+</head>
+<body>
+    <div id="header">
+        <img src="../src/svg/notice.svg" alt="공지사항" width="30px" height="30px" onclick="window.location.href = './notice.html'">
+        <p id="welcomeMessage"></p>
+    </div>
+    <h2>검색 결과</h2>
+    <p id="searchResult"></p>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const params = new URLSearchParams(window.location.search);
+            const query = params.get('query');
+            const searchResultElement = document.querySelector('#searchResult');
+            
+            if (query) {
+                searchResultElement.textContent = `"${query}"에 일치하는 결과가 없습니다.`;
+            } else {
+                searchResultElement.textContent = '검색어를 입력해주세요.';
+            }
+        });
+    </script>
+</body>
+</html>

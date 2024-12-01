@@ -1,0 +1,18 @@
+#menu > li > a {
+    display:block; position:relative; padding-bottom:19px;
+    margin: 50px;
+}
+#menu > li > a > img {
+    width:50px; height:50px;
+}
+#menu > li > a > span {
+    position:absolute; bottom:0; left:50%; color:#222; line-height:1.462em; white-space:nowrap; transform:translate(-50%, 0)
+}
+
+li {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  display: flex;
+} 

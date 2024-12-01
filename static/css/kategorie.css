@@ -1,0 +1,123 @@
+/* 로고 이미지 삽입 */
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Pretendard-Regular';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+body {
+    background-color: #004D8C;
+display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        align-items: flex-start;
+}
+
+p {
+    font-size: 18px;
+}
+
+#item{
+    background-color: #ffff;
+    display:table;
+    border:1px solid #c0c0cc;
+    width:720px;
+    height:80px;
+}
+
+#item #item_img {
+    display:table-cell;
+    vertical-align:middle;
+    float: left;
+    align-items: center;
+}
+
+.item {
+    display: table;
+    border: 1px solid #cecece;
+    width: 720px;
+    height: 80px;
+}
+
+.item #item_img {
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    body {
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+        align-items: flex-start;
+    }
+    .item {
+        width: calc(100% - 40px);
+        max-width: 600px;
+        height: auto;
+        margin: 10px auto;
+        padding: 10px;
+        box-sizing: border-box;
+        border-left: 1px solid #cecece;
+        border-right: 1px solid #cecece;
+    }
+    .item #item_img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+    .item {
+        width: calc(100% - 30px);
+        max-width: 480px;
+        height: auto;
+        margin: 10px auto;
+        padding: 10px;
+        box-sizing: border-box;
+        border-left: 1px solid #cecece;
+        border-right: 1px solid #cecece;
+    }
+    .item #item_img {
+        width: 70px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 320px) {
+    body {
+        font-size: 11px;
+    }
+    .item {
+        width: calc(100% - 20px);
+        max-width: 320px;
+        height: auto;
+        margin: 10px auto;
+        padding: 10px;
+        box-sizing: border-box;
+        border-left: 1px solid #cecece;
+        border-right: 1px solid #cecece;
+    }
+    .item #item_img {
+        width: 60px;
+        height: 60px;
+    }
+}
